@@ -107,11 +107,8 @@ class TicTacToe
   end 
   
   def draw?
-    full? && !won? 
-      true  
-    else 
-      false 
-    end 
+    full? && !won? ? true : false 
+    #ternary operator  
   end 
   
   def over?
