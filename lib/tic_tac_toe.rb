@@ -129,5 +129,13 @@ class TicTacToe
   end 
   
   def play 
+    until over?
+    turn 
+  end 
+   if won?
+     puts "Winner!"
+   elsif draw? 
+   puts "draw"
+ end 
   end 
 end 
