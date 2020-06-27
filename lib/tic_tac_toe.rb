@@ -108,10 +108,11 @@ class TicTacToe
   
   def draw?
     full? && !won? ? true : false 
-    #ternary operator  
+    #ternary operator  ruby guides 
   end 
   
   def over?
+    
   end 
   
   def winner
